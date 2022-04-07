@@ -1,5 +1,6 @@
 Feature: Dashboard functionality
 
+
   @dashboard
   Scenario: Verify dashboard tabs
     When user enters valid admin username and password
