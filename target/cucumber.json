@@ -1,0 +1,41 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-23T04:16:51.413Z",
+        "line": 4,
+        "name": "Generating the token",
+        "description": "",
+        "id": "syntax-api-workflow-for-hrms;generating-the-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4848998500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a JWT bearer token is generates",
+            "match": {
+              "location": "APISteps.GenerateTokenSteps.a_jwt_bearer_token_is_generates()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WorkFlow"
+          }
+        ]
+      }
+    ],
+    "name": "Syntax API workflow for HRMS",
+    "description": "",
+    "id": "syntax-api-workflow-for-hrms",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/APIWorkFlow.feature",
+    "tags": []
+  }
+]
